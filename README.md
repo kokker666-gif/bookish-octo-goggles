@@ -1,5 +1,7 @@
 # bookish-octo-goggles
 
+**[Русская версия / Russian version](README_RU.md)**
+
 ## Cryptocurrency Arbitrage Script
 
 This repository includes `crypto_arbitrage.py`, a Python script that fetches cryptocurrency prices from multiple exchanges and identifies arbitrage opportunities.
