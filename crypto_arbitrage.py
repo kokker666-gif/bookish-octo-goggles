@@ -127,19 +127,25 @@ def find_arbitrage():
     print("\nPrices:", prices)
     
     # Identify arbitrage opportunities among exchanges
-    buy_low = min(prices, key=lambda x: prices[x][0])  # Lowest bid
-    sell_high = max(prices, key=lambda x: prices[x][1])  # Highest ask
+    # For arbitrage: buy at lowest ask price, sell at highest bid price
+    buy_from = min(prices, key=lambda x: prices[x][1])  # Lowest ask (buying price)
+    sell_to = max(prices, key=lambda x: prices[x][0])  # Highest bid (selling price)
     
-    buy_price = prices[buy_low][0]
-    sell_price = prices[sell_high][1]
+    buy_price = prices[buy_from][1]  # Ask price (price to buy at)
+    sell_price = prices[sell_to][0]  # Bid price (price to sell at)
     
     print(f"\nArbitrage Opportunity:")
-    print(f"Buy from {buy_low} at {buy_price} and sell to {sell_high} at {sell_price}")
+    print(f"Buy from {buy_from} at {buy_price} and sell to {sell_to} at {sell_price}")
     
     # Calculate potential profit percentage
     if buy_price > 0:
         profit_percentage = ((sell_price - buy_price) / buy_price) * 100
         print(f"Potential profit: {profit_percentage:.2f}%")
+        
+        if sell_price > buy_price:
+            print("✓ Profitable arbitrage opportunity exists!")
+        else:
+            print("✗ No profitable arbitrage opportunity (sell price <= buy price)")
 
 if __name__ == "__main__":
     find_arbitrage()
