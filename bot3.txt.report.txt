@@ -1,0 +1,70 @@
+=== S6 LOG ANALYSIS REPORT ===
+File: bot3.txt
+Results: 40400 (WIN 69, LOSS 40331, WR 0.170792%)
+Profit sum: -93.20800000 | Bet sum: 287.74300000 | Avg bet: 0.007122351485148514851485148515
+Balance min/max: 0E-8 / 105.49000000
+
+Completeness:
+- missing pre: 18
+- missing post: 17
+- missing result: 1
+
+Anomalies:
+- SID changes: 1
+- non-monotonic gspin: 0
+- spins2 jumps: 7
+- i2 jumps: 6
+- L decreased on LOSS: 27
+- bet pre/result mismatch: 3455
+
+First anomalies (up to 50):
+  * bet mismatch gspin=96: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=97: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=98: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=99: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=100: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=101: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=102: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=103: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=104: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=105: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=106: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=107: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=108: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=109: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=110: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=111: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=112: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=113: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=114: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=115: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=116: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=117: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=118: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=119: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=120: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=121: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=122: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=123: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=124: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=125: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=126: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=127: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=128: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=129: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=130: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=131: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=132: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=133: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=134: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=135: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=136: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=137: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=138: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=139: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=140: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=141: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=142: pre=0.00100000 result=0.00200000
+  * bet mismatch gspin=143: pre=0.00100000 result=0.00300000
+  * bet mismatch gspin=144: pre=0.00100000 result=0.00300000
+  * bet mismatch gspin=145: pre=0.00100000 result=0.00300000

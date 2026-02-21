@@ -1,0 +1,70 @@
+=== S6 LOG ANALYSIS REPORT ===
+File: bot.txt
+Results: 32261 (WIN 33, LOSS 32228, WR 0.102291%)
+Profit sum: 37.56400000 | Bet sum: 74.30600000 | Avg bet: 0.002303276401847431883698583429
+Balance min/max: 1.64800000 / 49.81400000
+
+Completeness:
+- missing pre: 19
+- missing post: 19
+- missing result: 2
+
+Anomalies:
+- SID changes: 0
+- non-monotonic gspin: 0
+- spins2 jumps: 10
+- i2 jumps: 0
+- L decreased on LOSS: 31
+- bet pre/result mismatch: 8613
+
+First anomalies (up to 50):
+  * bet mismatch gspin=953: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=954: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=955: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=956: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=957: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=958: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=959: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=960: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=961: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=962: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=963: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=964: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=965: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=966: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=967: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=968: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=969: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=970: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=971: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=972: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=973: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=974: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=975: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=976: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=977: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=978: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=979: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=980: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=981: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=982: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=983: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=984: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=985: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=986: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=987: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=988: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=989: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=990: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=991: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=992: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=993: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=994: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=995: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=996: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=997: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=998: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=999: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=1000: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=1001: pre=0.00200000 result=0.00100000
+  * bet mismatch gspin=1002: pre=0.00200000 result=0.00100000

@@ -1,0 +1,60 @@
+=== S6 LOG ANALYSIS REPORT ===
+File: bot2.txt
+Results: 44341 (WIN 49, LOSS 44292, WR 0.110507%)
+Profit sum: 24.60800000 | Bet sum: 104.09200000 | Avg bet: 0.002347533885117611240161475835
+Balance min/max: 71.84600000 / 103.11400000
+
+Completeness:
+- missing pre: 41
+- missing post: 581
+- missing result: 542
+
+Anomalies:
+- SID changes: 0
+- non-monotonic gspin: 0
+- spins2 jumps: 0
+- i2 jumps: 0
+- L decreased on LOSS: 40
+- bet pre/result mismatch: 0
+
+First anomalies (up to 50):
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=78081: 2.64800000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=82398: 5.37100000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=83990: 2.39300000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=84776: 0.78500000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=85782: 1.05800000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=87316: 2.21900000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=87890: 0.57300000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=88896: 1.05800000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=89155: 0.25800000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=89625: 0.46900000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=90852: 1.50000000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=90890: 0.03700000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=91417: 0.52600000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=91516: 0.09800000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=92605: 1.22400000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=93092: 0.48600000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=94338: 1.53800000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=94702: 0.36300000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=95535: 0.83200000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=95614: 0.07800000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=95775: 0.16000000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=97529: 2.88700000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=98063: 0.53300000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=98538: 0.47400000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=99854: 1.67800000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=100228: 0.37300000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=101101: 0.87200000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=101883: 0.78100000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=102509: 0.62500000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=103926: 0.87500000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=104481: 0.55400000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=104705: 0.22300000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=104731: 0.02500000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=106434: 2.72600000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=111535: 9.47900000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=111854: 0.31800000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=112101: 0.24600000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=113096: 1.03600000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=113203: 0.10600000 -> 0.00100000
+  * L decreased on LOSS sid=0x1b998ab2f90 gspin=121908: 9.62700000 -> 0.00100000

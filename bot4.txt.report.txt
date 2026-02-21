@@ -1,0 +1,42 @@
+=== S6 LOG ANALYSIS REPORT ===
+File: bot4.txt
+Results: 33099 (WIN 31, LOSS 33068, WR 0.093658%)
+Profit sum: -20.58724334 | Bet sum: 108.69724334 | Avg bet: 0.003284003847246140366778452521
+Balance min/max: 0E-8 / 34.45024334
+
+Completeness:
+- missing pre: 23
+- missing post: 22
+- missing result: 1
+
+Anomalies:
+- SID changes: 0
+- non-monotonic gspin: 0
+- spins2 jumps: 0
+- i2 jumps: 0
+- L decreased on LOSS: 22
+- bet pre/result mismatch: 0
+
+First anomalies (up to 50):
+  * L decreased on LOSS sid=0x234d62c5940 gspin=25717: 2.80000000 -> 0.00100000
+  * L decreased on LOSS sid=0x234d62c5940 gspin=26727: 1.06600000 -> 0.00100000
+  * L decreased on LOSS sid=0x234d62c5940 gspin=27277: 0.54900000 -> 0.00100000
+  * L decreased on LOSS sid=0x234d62c5940 gspin=27376: 0.09800000 -> 0.00100000
+  * L decreased on LOSS sid=0x234d62c5940 gspin=27756: 0.37900000 -> 0.00100000
+  * L decreased on LOSS sid=0x234d62c5940 gspin=28426: 0.66900000 -> 0.00100000
+  * L decreased on LOSS sid=0x234d62c5940 gspin=28923: 0.49600000 -> 0.00100000
+  * L decreased on LOSS sid=0x234d62c5940 gspin=30916: 3.85200000 -> 0.00100000
+  * L decreased on LOSS sid=0x234d62c5940 gspin=31025: 0.10800000 -> 0.00100000
+  * L decreased on LOSS sid=0x234d62c5940 gspin=32746: 2.78000000 -> 0.00100000
+  * L decreased on LOSS sid=0x234d62c5940 gspin=32995: 0.24800000 -> 0.00100000
+  * L decreased on LOSS sid=0x234d62c5940 gspin=33624: 0.62800000 -> 0.00100000
+  * L decreased on LOSS sid=0x234d62c5940 gspin=34290: 0.66500000 -> 0.00100000
+  * L decreased on LOSS sid=0x234d62c5940 gspin=34778: 0.48700000 -> 0.00100000
+  * L decreased on LOSS sid=0x234d62c5940 gspin=34834: 0.05500000 -> 0.00100000
+  * L decreased on LOSS sid=0x234d62c5940 gspin=34976: 0.14100000 -> 0.00100000
+  * L decreased on LOSS sid=0x234d62c5940 gspin=35996: 1.08600000 -> 0.00100000
+  * L decreased on LOSS sid=0x234d62c5940 gspin=36157: 0.16000000 -> 0.00100000
+  * L decreased on LOSS sid=0x234d62c5940 gspin=36847: 0.68900000 -> 0.00100000
+  * L decreased on LOSS sid=0x234d62c5940 gspin=39980: 3.72400000 -> 0.00100000
+  * L decreased on LOSS sid=0x234d62c5940 gspin=45618: 7.93700000 -> 0.00100000
+  * L decreased on LOSS sid=0x234d62c5940 gspin=47275: 2.58800000 -> 0.00100000
